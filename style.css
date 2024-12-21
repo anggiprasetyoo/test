@@ -179,6 +179,15 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 }
+.work {
+    display: flex;
+    flex-direction: column; /* Ubah menjadi kolom untuk perangkat kecil */
+}
+.workbox .icon img {
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar kontainer */
+    height: auto; /* Pertahankan rasio aspek */
+}
+
 .work .workbox{
     display: flex;
     justify-content: space-between;
@@ -231,5 +240,9 @@ footer {
     .about .work{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(4,auto);
+    }
+    .work .workbox {
+        width: 100%; /* Atur lebar menjadi 100% untuk perangkat kecil */
+        margin: 0; /* Hapus margin jika perlu */
     }
 }
