@@ -121,7 +121,6 @@ Copy code
 6. Cara Menjalankan Proyek
 Pastikan Anda memiliki server lokal seperti XAMPP atau WAMP.
 Tempatkan folder proyek di dalam direktori htdocs (untuk X AMPP) atau www (untuk WAMP).
-Buka browser dan akses http://localhost/nama_folder_proyek/index.html.
 7. Fitur Tambahan
 Integrasi Media Sosial: Tautan ke profil media sosial untuk meningkatkan konektivitas.
 Download CV: Pengguna dapat mengunduh CV dalam format PDF dengan mengklik tombol "LIHAT CV".
